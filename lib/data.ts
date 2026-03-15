@@ -1,6 +1,6 @@
 export const personalInfo = {
   name: "Kartikeiya Rai",
-  role: "AI Powered Software Engineer",
+  role: "Software Engineer",
   tagline: "Building products that are fast, functional, and well-crafted.",
   location: "Maharashtra, India",
   email: "kei.skillsboost@gmail.com",
@@ -31,7 +31,6 @@ export const experiences = [
       "CSS",
       "JavaScript",
       "Shopify",
-      "MySQL",
       "Microsoft Clarity",
       "SEO",
     ],
@@ -54,11 +53,11 @@ export const experiences = [
 
 export const projects = [
   {
-    name: "QR-Hire",
+    name: "QR-Hire (WIP)",
     description:
       "A job flyer platform for local vendors — businesses create customizable templates with embedded QR codes linking physical flyers to online job listings, with PDF export for print-ready downloads.",
     tech: ["Next.js", "MongoDB", "NextAuth.js", "TailwindCSS", "TypeScript"],
-    github: "https://github.com/Kei07R",
+    github: "https://github.com/Kei07R/qr-hire",
     live: null,
     featured: true,
   },
@@ -74,7 +73,7 @@ export const projects = [
       "CSS",
       "JavaScript",
     ],
-    github: "https://github.com/Kei07R",
+    github: "https://github.com/Kei07R/Lang-Trans-OverVC",
     live: null,
     featured: true,
   },
@@ -83,17 +82,44 @@ export const projects = [
     description:
       "A React Native mobile app that uses Clarifai API to identify dishes from photos and fetch their recipes — food images are uploaded via the UI in Base-64 format.",
     tech: ["React Native", "Clarifai API", "Node.js", "Express.js"],
-    github: "https://github.com/Kei07R",
+    github: "https://github.com/Kei07R/RecipeFinderApp",
     live: null,
     featured: true,
+  },
+  {
+    name: "Elgemo",
+    description:
+      "A room-code based peer-to-peer video chat app — no accounts needed. Users share a 6-character code to connect via WebRTC, with in-call text chat routed through the Socket.IO signaling server.",
+    tech: ["React Native", "Expo", "WebRTC", "Node.js", "Socket.IO", "TypeScript"],
+    github: "https://github.com/Kei07R/elgemo",
+    live: "https://elgemo-red.vercel.app",
+    featured: false,
+  },
+  {
+    name: "Carry Your Boats",
+    description:
+      "A persona-based AI chatbot that pairs users with motivational mentors — David Goggins, Kobe Bryant, Jocko Willink, and Marcus Aurelius — each responding in their distinctive style to keep you on track.",
+    tech: ["React", "Vite", "Express.js", "Google Gemini API", "JavaScript"],
+    github: "https://github.com/Kei07R/carry-your-boats",
+    live: "https://carry-your-boats.vercel.app",
+    featured: false,
+  },
+  {
+    name: "Simple Tokenizer",
+    description:
+      "A browser-based NLP tokenizer that encodes text into padded token strings with vocabulary IDs and decodes them back to the original input — built with vanilla JavaScript.",
+    tech: ["HTML", "JavaScript"],
+    github: "https://github.com/Kei07R/Simple-Tokenizer",
+    live: "https://simple-tokenizer-plum.vercel.app",
+    featured: false,
   },
   {
     name: "Fable-Flow",
     description:
       "An interactive storytelling app with real-time gesture control to manipulate characters and backgrounds using MediaPipe and CvZone, with alpha blending for seamless visual overlays.",
     tech: ["Python", "OpenCV", "MediaPipe", "CvZone"],
-    github: "https://github.com/Kei07R",
-    live: null,
+    github: "https://github.com/Kei07R/OpenCV-FableFlow",
+    live: "https://www.linkedin.com/posts/kartikeiya-rai_excited-to-share-my-recent-computer-vision-activity-7274812703095894016-UuaJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADlzLZYBn5JEnThdAoubSwrHN_V0uDwXOUc",
     featured: false,
   },
 ];
