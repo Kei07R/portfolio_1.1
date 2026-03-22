@@ -15,6 +15,10 @@ export default function Projects() {
       >
         <SectionHeader label="01" title="Projects" />
 
+        <p className="mt-4 text-sm text-[#6b7280] font-mono border border-[#1e1e2e] bg-[#0f0f1a] rounded-sm px-4 py-3">
+          <span className="text-[#00d4ff]/60">note /</span> Projects are deployed on free-tier services and may take up to 2 minutes to become active on first load. They are tested and will work - please be patient and try again after your first attempt.
+        </p>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
           {projects.map((project, i) => (
             <ProjectCard key={project.name} project={project} index={i} />
