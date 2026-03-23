@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { personalInfo } from "@/lib/data";
-import { MapPin, Github, Linkedin, ArrowDown } from "lucide-react";
+import { Github, Linkedin, ArrowDown } from "lucide-react";
 
 export default function Hero() {
   const cursorRef = useRef<HTMLSpanElement>(null);
@@ -24,12 +24,6 @@ export default function Hero() {
       className="min-h-screen flex flex-col justify-center px-6 pt-20 max-w-5xl mx-auto"
     >
       <div className="max-w-2xl">
-        {/* Location badge */}
-        <div className="flex items-center gap-2 mb-8 text-[#6b7280] text-sm">
-          <MapPin size={14} className="text-[#00d4ff]" />
-          <span>{personalInfo.location}</span>
-        </div>
-
         {/* Name */}
         <h1 className="font-mono text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-4 leading-none">
           <span className="text-[#e8e8f0]">{personalInfo.name.split(" ")[0]}</span>

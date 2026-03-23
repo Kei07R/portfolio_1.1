@@ -2,7 +2,6 @@ export const personalInfo = {
   name: "Kartikeiya Rai",
   role: "Software Engineer",
   tagline: "Building products that are fast, functional, and well-crafted.",
-  location: "Maharashtra, India",
   email: "kei.skillsboost@gmail.com",
   linkedin: "https://linkedin.com/in/kartikeiya-rai",
   github: "https://github.com/Kei07R",
