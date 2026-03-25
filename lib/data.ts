@@ -5,6 +5,7 @@ export const personalInfo = {
   email: "kei.skillsboost@gmail.com",
   linkedin: "https://linkedin.com/in/kartikeiya-rai",
   github: "https://github.com/Kei07R",
+  location: "",
 };
 
 export const experiences = [
