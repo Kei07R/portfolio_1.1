@@ -62,6 +62,15 @@ export const projects = [
     featured: false,
   },
   {
+    name: "Clipdd",
+    description:
+      "An Android app that transforms any photo into multiple AI-generated clipart styles - anime, Ghibli, pixel art, comic, and cartoon — using batch parallel generation via FLUX.1 Kontext Pro.",
+    tech: ["React Native", "Node.js", "Express", "Replicate API", "Docker"],
+    github: "https://github.com/Kei07R/clipdd",
+    live: "https://drive.google.com/file/d/1If4ePSCBwtbmO7XXPBUk968klqkeLNIm/view?usp=sharing",
+    featured: false,
+  },
+  {
     name: "Elgemo",
     description:
       "A room-code based peer-to-peer video chat app — no accounts needed. Users share a 6-character code to connect via WebRTC, with in-call text chat routed through the Socket.IO signaling server.",
